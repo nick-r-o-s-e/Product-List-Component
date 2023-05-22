@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(174, 174, 174);
+  font-family: "Roboto", sans-serif;
+}
+
+.container-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 150px 0;
+}
+
+@media (max-width: 600px) {
+  .container-main {
+    padding: 70px 0;
+  }
+}
